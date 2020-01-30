@@ -27,7 +27,7 @@
 
 .pie_segment:after,
 .pie_segment:before {
-  background: var(--bg, #e74c3c);
+  background: var(--bg);
   content: '';
   height: 100%;
   position: absolute;
