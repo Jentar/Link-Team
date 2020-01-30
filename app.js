@@ -4,8 +4,9 @@ const second = document.querySelector("#second");
 const btntulu = document.querySelector("#tulu");
 const homebtnkulu = document.querySelector("#kulu");
 const answer = document.querySelector("#totalanswer");
-const tululist = document.querySelector("#tulu_list");
 var currentvalue = 0
+kulu.visible = false
+
 
 // 2. Create calc function
 answer.innerText = currentvalue
