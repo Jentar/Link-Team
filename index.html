@@ -4,12 +4,31 @@
     <head>
         <meta charset="UTF-8" />
         <title>JavaScript</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <input id="first" type="number" />
         <button id="tulu">Tulu</button>
-        <button id="kulu">Kulu</button>
-        <span id="answer"></span>
+        Praegune summa: <span id="totalanswer"></span>€
+
+        <div class=”calculator”>
+            <div class=”calculator__keys”>
+                <button>Home</button>
+                <input id="first" type="number" />
+                <button id="kulu">Kulu</button>   </br>
+                <button>Uncategorized</button> </br>
+                <button>Shopping</button>   </br>
+                <button>Bills</button>  </br>
+                <button>Auto</button>   </br>
+                <button>Kids</button>   </br>
+            </div>
+          </div>
+
+        <div class="history">
+            <div class="kuluhistory"></div> 
+            <div class="tuluhistory"></div> 
+        </div>
+
         <script src="app.js"></script>
     </body>
 </html>

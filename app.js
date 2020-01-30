@@ -2,9 +2,11 @@
 const first = document.querySelector("#first");
 const second = document.querySelector("#second");
 const btntulu = document.querySelector("#tulu");
-const btnkulu = document.querySelector("#kulu");
-const answer = document.querySelector("#answer");
+const homebtnkulu = document.querySelector("#kulu");
+const answer = document.querySelector("#totalanswer");
+const tululist = document.querySelector("#tulu_list");
 var currentvalue = 0
+
 // 2. Create calc function
 answer.innerText = currentvalue
 function tulu() {
