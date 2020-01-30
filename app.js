@@ -57,3 +57,4 @@ uncatbtnkulu.addEventListener("click", uncatkulu);
 shoppingbtnkulu.addEventListener("click", shoppingkulu);
 billsbtnkulu.addEventListener("click", billskulu);
 kidsbtnkulu.addEventListener("click", kidskulu);
+
