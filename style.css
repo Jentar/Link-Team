@@ -1,4 +1,5 @@
-.calculator__keys { 
-    display: grid; 
-    /* other necessary CSS */ 
-  }
+.input_keys,.hide {
+  display: none;
+
+}
+
