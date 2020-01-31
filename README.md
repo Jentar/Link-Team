@@ -7,7 +7,8 @@ Our budget calculator was made for our schools project days which happened on 30
 We are team **"Link"** :  
 **_Project manager:_**    **Karl Gregor Rauniste TA-19**  
 **_Members:_**   
-**Developers:** Joel Pupart TA-19   Robin Kukk TAK-19  
+**Developers:** Joel Pupart TA-19  
+Robin Kukk TAK-19  
 **Design:** Karl Jäme TAK-19  
 **Github admin:** Elly Bärlin TAK-18  
 **Data Collector:** Merike Toose TA-18  
