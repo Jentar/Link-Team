@@ -5,7 +5,7 @@ Eelarve kalkulaator on Kuressaare Ametikooli projektipäevade 30 - 31.01.2020 me
 ## Meeskond
 ​
 Oleme projektimeeskond **"Link"** Koosseisus:  
-**_Juht:_**    **Karl Gregor Rauniste TA-19**  
+**_Projektijuht:_**    **Karl Gregor Rauniste TA-19**  
 **_Liikmed:_**  **Joel Pupart TA-19**,
             **Karl Jäme TAK-19**,
             **Robin Kukk TAK-18**,
