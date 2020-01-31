@@ -15,7 +15,7 @@ function addElement (x1, x2, x3, x4, x5) {
         var style = document.createElement('style');
         document.head.appendChild(style);
         style.sheet.insertRule('#slice' +  index.toString() + '{--offset: ' + offset.toString() + '; --value: ' +
-        value.toString() + '; --over50: ' + overHalf.toString() + '0;}');
+        value.toString() + '; --over50: ' + overHalf.toString() + '0; visibility: visible;}');
         offset += value;
     }
 }

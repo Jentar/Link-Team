@@ -16,6 +16,7 @@
 }
 
 .pie_segment {
+  visibility: hidden;
   --a: calc(var(--over50, 0) * -100%);
   --b: calc((1 + var(--over50, 0)) * 100%);
   --degrees: calc((var(--offset, 0) / 100) * 360);
@@ -91,4 +92,8 @@ h1 {
 .piecontainer {
   display: grid;
   justify-items: center;
+}
+
+html {
+  height: 100%;
 }
