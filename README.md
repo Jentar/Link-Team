@@ -1,11 +1,11 @@
 # Budget calculator
 ​
-Eelarve kalkulaator on Kuressaare Ametikooli projektipäevade 30 - 31.01.2020 meeskonnaprojekt
+Eelarve kalkulaator on Kuressaare Ametikooli projektipäevade 30 - 31.01.2020 meeskonnaprojekt.  
 Our budget calculator was made for our schools project days which happened on 30 - 31.01.2020.
 ​
 # Our team
 
-Oleme projektimeeskond **"Link"** Koosseisus:  
+We are team **"Link"** :  
 **_Project manager:_**    **Karl Gregor Rauniste TA-19**  
 **_Members:_**  **Joel Pupart TA-19**,
             **Karl Jäme TAK-19**,
@@ -18,7 +18,8 @@ We are from Estonia and we are learning in Kuressaare Regional Training Centre. 
 
 ## Budget calculator idea
 ​
-Eesmärk koostada kalkulaator, mis aitaks kasutaja rahakotisisust paremat ülevaadet saada.   Kulutused grupeeritud teemade kaupa, et ülevaatlikult näha, kuhu kaob raha tegelikult.
+Eesmärk koostada kalkulaator, mis aitaks kasutaja rahakotisisust paremat ülevaadet saada.   Kulutused grupeeritud teemade kaupa, et ülevaatlikult näha, kuhu kaob raha tegelikult. 
+Our goal was to make a calculator which would give the user a better understanding of their monthly spendings. The spendings are categorized into 5 different topics.
 
 ​
 ## Prototype
@@ -27,11 +28,11 @@ Eesmärk koostada kalkulaator, mis aitaks kasutaja rahakotisisust paremat üleva
 ​
 ## What the calculator consists of?
 Our budget is divided into 6 topics:
-1. Sissetulekud
-2. Kodukulud
-3. Poeskäigud
-4. Reisimine
-5. Autokulud
-6. Muu
+1. Income
+2. Home
+3. Shopping
+4. Car
+5. Traveling
+6. Other
 
-## "Siia tuleb veebilehe screenshot"
+## "veebilehe screenshot"
