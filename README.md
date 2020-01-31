@@ -8,7 +8,7 @@ We are team **"Link"** :
 **_Project manager:_**    **Karl Gregor Rauniste TA-19**  
 **_Members:_**  **Joel Pupart TA-19**,
             **Karl Jäme TAK-19**,
-            **Robin Kukk TAK-18**,
+            **Robin Kukk TAK-19**,
             **Elly Bärlin TAK-18**,
             **Merike Toose TA-18**.
 ## Where are we from?
