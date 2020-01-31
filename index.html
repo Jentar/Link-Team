@@ -5,24 +5,31 @@
         <title>JavaScript</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Righteous">
     </head>
     <body>
+        <div class="largecontainer">
         <header>
-
+            <i class="fas fa-american-sign-language-interpreting"></i>
         </header>
         <div class="container">
             <div class="chart">
                 <div class="title">
-                    
+                    <h1>Spending By Category</h1>
+                    <span class="result">€</span>
+                    <span class="result" id="totalanswer"></span>
                 </div>
-                <div class="pie">
-                    <div id="slice0" class="pie_segment" style="--bg: red;"></div>
-                    <div id="slice1" class="pie_segment" style="--bg: blue;"></div>
-                    <div id="slice2" class="pie_segment" style="--bg: green;"></div>
-                    <div id="slice3" class="pie_segment" style="--bg: yellow;"></div>
-                    <div id="slice4" class="pie_segment" style="--bg: purple;"></div>
+                <div class="piecontainer">
+                    <div class="pie">
+                        <div id="slice0" class="pie_segment" style="--bg: #AC58FA;"></div>
+                        <div id="slice1" class="pie_segment" style="--bg: #0080FF;"></div>
+                        <div id="slice2" class="pie_segment" style="--bg: #F5A9E1;"></div>
+                        <div id="slice3" class="pie_segment" style="--bg: #DF7401;"></div>
+                        <div id="slice4" class="pie_segment" style="--bg: #31B404;"></div>
+                    </div>
                 </div>
             </div>
+<<<<<<< HEAD
             <div id = "input-container">
                 <div class="flex-grid-2">  
                     <div class="input">
@@ -61,6 +68,31 @@
                         </div>
                         
                     </div>
+=======
+            <div class="input">
+                <button onclick="showBottom('#income_container')"><i class="fas fa-money-check"></i></button></br> <!--home-->
+                <div class="input_keys" id="income_container">
+                    <input id="first" type="number" />
+                    <button id="tulu">Tulu</button>
+                </div>
+                <button onclick="showBottom('#home_container')"><i class="fas fa-home"></i></button></br> <!--home-->
+                <div class="input_keys" id="home_container">
+                    <input id="homeinput" type="number" />
+                    <button id="homekulu">Kulu</button></br>
+                    Kulu: <span id="hometotal"></span>€ </br>
+                </div>
+                <button onclick="showBottom('#other_container')"><i class="fas fa-file-invoice-dollar"></i></button></br> <!--home-->
+                <div class="input_keys" id="other_container">
+                    <input id="otherinput" type="number" />
+                    <button id="otherkulu">Kulu</button> </br>
+                    Kulu: <span id="othertotal"></span>€ </br>
+                </div>
+                <button onclick="showBottom('#shopping_container')"><i class="fas fa-shopping-basket"></i></button></br> <!--home-->
+                <div class="input_keys" id="shopping_container">
+                    <input id="shoppinginput" type="number" />
+                    <button id="shoppingkulu">Kulu</button> </br>
+                    Kulu: <span id="shoppingtotal"></span>€ </br>
+>>>>>>> c2d4e5724dc97de398a0a3da2894f18147f8df79
                 </div>
                     <div class="flex-grid2">
                         <div class="brand-col">
@@ -96,11 +128,16 @@
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
         </div>
         </div>
+=======
+        </div>   
+>>>>>>> c2d4e5724dc97de398a0a3da2894f18147f8df79
         <footer>
-
+            Some text
         </footer>
+        </div>
         <script src="app.js"></script>
 </body>
 </html>
