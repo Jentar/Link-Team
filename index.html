@@ -10,7 +10,8 @@
     <body>
         <div class="largecontainer">
         <header>
-            <i class="fas fa-american-sign-language-interpreting"></i>
+            <i class="fas fa-american-sign-language-interpreting resize"></i>
+            <span class="maintitle">Team Link Budget Calculator</span>
         </header>
         <div class="container">
             <div class="chart">
@@ -30,45 +31,128 @@
                 </div>
             </div>
             <div class="input">
-                <button onclick="showBottom('#income_container')"><i class="fas fa-money-check"></i></button></br> <!--home-->
-                <div class="input_keys" id="income_container">
-                    <input id="first" type="number" />
-                    <button id="tulu">Tulu</button>
-                </div>
-                <button onclick="showBottom('#home_container')"><i class="fas fa-home"></i></button></br> <!--home-->
-                <div class="input_keys" id="home_container">
-                    <input id="homeinput" type="number" />
-                    <button id="homekulu">Kulu</button></br>
-                    Kulu: <span id="hometotal"></span>€ </br>
-                </div>
-                <button onclick="showBottom('#other_container')"><i class="fas fa-file-invoice-dollar"></i></button></br> <!--home-->
-                <div class="input_keys" id="other_container">
-                    <input id="otherinput" type="number" />
-                    <button id="otherkulu">Kulu</button> </br>
-                    Kulu: <span id="othertotal"></span>€ </br>
-                </div>
-                <button onclick="showBottom('#shopping_container')"><i class="fas fa-shopping-basket"></i></button></br> <!--home-->
-                <div class="input_keys" id="shopping_container">
-                    <input id="shoppinginput" type="number" />
-                    <button id="shoppingkulu">Kulu</button> </br>
-                    Kulu: <span id="shoppingtotal"></span>€ </br>
-                </div>
-                <button onclick="showBottom('#car_container')"><i class="fas fa-car"></i></button></br> <!--home-->
-                <div class="input_keys" id="car_container">
-                    <input id="carinput" type="number" />
-                    <button id="carkulu">Kulu</button> </br>
-                    Kulu: <span id="cartotal"></span>€ </br>
-                </div>
-                <button onclick="showBottom('#travel_container')"><i class="fas fa-route"></i></button></br> <!--home-->
-                <div class="input_keys" id="travel_container">
-                    <input id="travelinput" type="number" />
-                    <button id="travelkulu">Kulu</button> </br>
-                    Kulu: <span id="traveltotal"></span>€ </br>
+                <div class="buttons">
+                    <div class="row">
+                        <!--Travel-->
+                        <div class="btncontainer">
+                            <button onclick="showBottom('#travel_container')"><i class="fas fa-route"></i></button></br>
+                            <div class="euros">
+                                <span>Travel</span>
+                                <div>
+                                    <span id="traveltotal"></span>
+                                    <span>€</span>
+                                </div>
+                            </div>
+                            <div class="input_keys" id="travel_container">
+                                <div>
+                                    <input id="travelinput" type="number" />
+                                </div>
+                                <div>
+                                    <button id="travelkulu" class="costbtn">KULU</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Home-->
+                        <div class="btncontainer">
+                            <button onclick="showBottom('#home_container')"><i class="fas fa-home"></i></button></br>
+                            <div class="euros">
+                                <span>Home</span>
+                                <div>
+                                    <span id="hometotal"></span>
+                                    <span>€</span>
+                                </div>
+                            </div>
+                            <div class="input_keys" id="home_container">
+                                <div>
+                                    <input id="homeinput" type="number" />
+                                </div>
+                                <div>
+                                    <button id="homekulu" class="costbtn">KULU</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--Shopping-->
+                        <div class="btncontainer">
+                            <button onclick="showBottom('#shopping_container')"><i class="fas fa-shopping-basket"></i></button></br>
+                            <div class="euros">
+                                <span>Shopping</span>
+                                <div>
+                                    <span id="shoppingtotal"></span>
+                                    <span>€</span>
+                                </div>
+                            </div>
+                            <div class="input_keys" id="shopping_container">
+                                <div>
+                                    <input id="shoppinginput" type="number" />
+                                </div>
+                                <div>
+                                    <button id="shoppingkulu" class="costbtn">KULU</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!--Other-->
+                        <div class="btncontainer">
+                            <button onclick="showBottom('#other_container')"><i class="fas fa-file-invoice-dollar"></i></button></br>
+                            <div class="euros">
+                                <span>Other</span>
+                                <div>
+                                    <span id="othertotal"></span>
+                                    <span>€</span>
+                                </div>
+                            </div>
+                            <div class="input_keys" id="other_container">
+                                <input id="otherinput" type="number"/>
+                                <button id="otherkulu" class="costbtn">KULU</button>
+                            </div>
+                        </div>
+                        
+                        <!--Income-->
+                        <div class="btncontainer">
+                            <button onclick="showBottom('#income_container')"><i class="fas fa-money-check"></i></button></br>
+                            <span class="euros">Income</span>
+                            <div class="input_keys" id="income_container">
+                                <div>
+                                    <input id="first" type="number"/>
+                                </div>
+                                <div>
+                                    <button id="tulu" class="costbtn">TULU</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Car-->
+                        <div class="btncontainer">
+                            <button onclick="showBottom('#car_container')"><i class="fas fa-car"></i></button></br>
+                            <div class="euros">
+                                <span>Car</span>
+                                <div>
+                                    <span id="cartotal"></span>
+                                    <span>€</span>
+                                </div>
+                            </div>
+                            <div class="input_keys" id="car_container">
+                                <div>
+                                    <input id="carinput" type="number" />
+                                </div>
+                                <div>
+                                    <button id="carkulu" class="costbtn">KULU</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>   
         <footer>
-            Some text
+            <div>
+                <span class="foot">https://github.com/Swissgroover/Link-Team</span>
+                <span class="foot">©Copyright by Kuressaare Ametikool</span>
+            </div>
         </footer>
         </div>
         <script src="app.js"></script>

@@ -1,5 +1,7 @@
 .calculator__keys { 
   display: grid; 
+  flex-flow: column;
+  align-items: center;
 }
 
 .input_keys,.hide {
@@ -91,7 +93,7 @@ header {
 }
 
 h1 {
-  color: #8E8E8E;
+  color: #85BB65;
   font-family: Righteous;
   font-size: 38px;
   margin: 20px;
@@ -105,4 +107,111 @@ h1 {
 
 body {
   margin: 0;
+}
+
+.fas {
+  font-size: 10vh;
+}
+.fa-car{
+  color:#F5A9E1
+}
+.fa-file-invoice-dollar {
+  color:#31B404
+}
+.fa-money-check {
+  color:#0489B1
+}
+.fa-shopping-basket {
+  color:#0080FF
+}
+.fa-home {
+  color:#AC58FA
+}
+.fa-route{
+  color:#DF7401
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  width: 10vh;
+  background: #0A2443;
+  border: none;
+  margin: 40px;
+}
+
+.buttons {
+  margin-top: 100px;
+}
+
+.input_keys {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.euros { 
+  display: flex;
+  flex-direction: column;
+  color: #85BB65;
+  font-family: sans-serif, 'Roboto';
+  font-size: 20px;
+}
+
+input {
+  width: 10vh;
+}
+
+.costbtn {
+  color: #85BB65;
+  font-family: sans-serif, 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  background: rgb(18, 69, 131);
+  padding: 5px 10px 5px 10px;
+  border-radius: 50%;
+  margin 0px;
+}
+
+footer {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  font-size: 10px;
+  color: rgb(80, 80, 80);
+}
+
+.foot {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.resize {
+  font-size: 5vh;
+  color: #85BB65;
+}
+
+.maintitle {
+  justify-content: left;
+  color: #85BB65;
+  font-size: 30px;
+  font-family: Righteous;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    display: grid;
+  }
+}
+
+input {
+  border: 5px solid rgb(8, 28, 53);
+  border-radius: 4px;
 }

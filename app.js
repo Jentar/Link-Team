@@ -12,6 +12,8 @@ function addElement (x1, x2, x3, x4, x5) {
             overHalf = 1;
         }
 
+        
+
         var style = document.createElement('style');
         document.head.appendChild(style);
         style.sheet.insertRule('#slice' +  index.toString() + '{--offset: ' + offset.toString() + '; --value: ' +
