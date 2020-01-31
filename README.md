@@ -28,3 +28,5 @@ Eelarve jagatakse kuude kategooriasse:
 4. Muu
 5. Autokulud
 6. Sissetulekud
+
+## "Siia tuleb veebilehe screenshot"
