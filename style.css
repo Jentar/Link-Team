@@ -1,8 +1,10 @@
 .calculator__keys { 
   display: grid; 
-  /* other necessary CSS */ 
 }
 
+.input_keys,.hide {
+  display: none;
+}
 
 .pie {
   flex: 1;
@@ -45,6 +47,12 @@
   opacity: var(--over50, 0);
 }
 
+.chart,
+.input {
+  background: #0A2443;
+  margin: 1px;
+}
+
 .container {
   display: flex;
 }
@@ -59,4 +67,28 @@ footer {
 
 .chart {
   flex: 1;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.result {
+  color: #85BB65;
+  font-size: 64px;
+  font-family: sans-serif, 'Roboto';
+  margin: 10px;
+}
+
+h1 {
+  color: #8E8E8E;
+  font-family: Righteous;
+  font-size: 42px;
+  margin: 10px;
+}
+
+.piecontainer {
+  display: grid;
+  justify-items: center;
 }
