@@ -1,34 +1,58 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <title>JavaScript</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" rel="stylesheet">
     </head>
     <body>
-        <input id="first" type="number" />
-        <button id="tulu">Tulu</button>
-        Praegune summa: <span id="totalanswer"></span>€
-
-        <div class=”calculator”>
-            <div class=”calculator__keys”>
-                <button>Home</button>
-                <input id="first" type="number" />
-                <button id="kulu">Kulu</button>   </br>
-                <button>Uncategorized</button> </br>
-                <button>Shopping</button>   </br>
-                <button>Bills</button>  </br>
-                <button>Auto</button>   </br>
-                <button>Kids</button>   </br>
-            </div>
-          </div>
-
-        <div class="history">
-            <div class="kuluhistory"></div> 
-            <div class="tuluhistory"></div> 
+        <div class="input">
+        <button onclick="showBottom('#income_container')"><i class="fas fa-money-check"></i></button></br> <!--home-->
+        <div class="input_keys" id="income_container">
+            <input id="first" type="number" />
+            <button id="tulu">Tulu</button>
+        Praegune summa: <span id="totalanswer"></span>
+        </div>
+        <div class="pie">
+            <div id="slice0" class="pie_segment" style="--bg: red;"></div>
+            <div id="slice1" class="pie_segment" style="--bg: blue;"></div>
+            <div id="slice2" class="pie_segment" style="--bg: green;"></div>
+            <div id="slice3" class="pie_segment" style="--bg: yellow;"></div>
+            <div id="slice4" class="pie_segment" style="--bg: purple;"></div>
         </div>
 
+            <button onclick="showBottom('#home_container')"><i class="fas fa-home"></i></button></br> <!--home-->
+                <div class="input_keys" id="home_container">
+                    <input id="homeinput" type="number" />
+                    <button id="homekulu">Kulu</button></br>
+                    Kulu: <span id="hometotal"></span>€ </br>
+                </div>
+            <button onclick="showBottom('#other_container')"><i class="fas fa-file-invoice-dollar"></i></button></br> <!--home-->
+                <div class="input_keys" id="other_container">
+                    <input id="otherinput" type="number" />
+                    <button id="otherkulu">Kulu</button> </br>
+                    Kulu: <span id="othertotal"></span>€ </br>
+                </div>
+            <button onclick="showBottom('#shopping_container')"><i class="fas fa-shopping-basket"></i></button></br> <!--home-->
+                <div class="input_keys" id="shopping_container">
+                    <input id="shoppinginput" type="number" />
+                    <button id="shoppingkulu">Kulu</button> </br>
+                    Kulu: <span id="shoppingtotal"></span>€ </br>
+                </div>
+            <button onclick="showBottom('#car_container')"><i class="fas fa-car"></i></button></br> <!--home-->
+                <div class="input_keys" id="car_container">
+                    <input id="carinput" type="number" />
+                    <button id="carkulu">Kulu</button> </br>
+                    Kulu: <span id="cartotal"></span>€ </br>
+                </div>
+                <button onclick="showBottom('#travel_container')"><i class="fas fa-route"></i></button></br> <!--home-->
+                <div class="input_keys" id="travel_container">
+                    <input id="travelinput" type="number" />
+                    <button id="travelkulu">Kulu</button> </br>
+                    Kulu: <span id="traveltotal"></span>€ </br>
+                </div>
+        </div>
         <script src="app.js"></script>
-    </body>
+</body>
 </html>
