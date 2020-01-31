@@ -23,44 +23,80 @@
                     <div id="slice4" class="pie_segment" style="--bg: purple;"></div>
                 </div>
             </div>
-            <div class="input">
-                <button onclick="showBottom('#income_container')"><i class="fas fa-money-check"></i></button></br> <!--home-->
-                <div class="input_keys" id="income_container">
-                    <input id="first" type="number" />
-                    <button id="tulu">Tulu</button>
-                    Praegune summa: <span id="totalanswer"></span>
+            <div id = "input-container">
+                <div class="flex-grid-2">  
+                    <div class="input">
+                        <div class="flex-grid2">
+                            <div class="brand-col">
+                        <button onclick="showBottom('#travel_container')"><i class="fas fa-route"></i></button></br> <!--home-->
+                        Travel
+                        <span id="traveltotal"></span>
+                        <div class="input_keys" id="travel_container">
+                            <input id="travelinput" type="number" />
+                            <button id="travelkulu">Kulu</button> </br>
+                            
+                        </div>
+                    </div>
+                
+                        <div class="brand-col">
+                            <button onclick="showBottom('#home_container')" ><i class="fas fa-home"></i></button></br> <!--home-->
+                            Home
+                            <span id="hometotal"></span>
+                        <div class="input_keys" id="home_container">
+                            <input id="homeinput" type="number" />
+                            <button id="homekulu">Kulu</button></br>
+                            
+                        
+                        </div>
+                    </div>
+                    
+                    <div class="brand-col">
+                        <button onclick="showBottom('#shopping_container')"><i class="fas fa-shopping-basket"></i></button></br> <!--home-->
+                        Shopping
+                        <span id="shoppingtotal"></span>
+                        <div class="input_keys" id="shopping_container">
+                            <input id="shoppinginput" type="number" />
+                            <button id="shoppingkulu">Kulu</button> </br>
+                            
+                        </div>
+                        
+                    </div>
                 </div>
-                <button onclick="showBottom('#home_container')"><i class="fas fa-home"></i></button></br> <!--home-->
-                <div class="input_keys" id="home_container">
-                    <input id="homeinput" type="number" />
-                    <button id="homekulu">Kulu</button></br>
-                    Kulu: <span id="hometotal"></span>€ </br>
+                    <div class="flex-grid2">
+                        <div class="brand-col">
+                            <button onclick="showBottom('#other_container')"><i class="fas fa-file-invoice-dollar"></i></button></br> <!--home-->
+                            Other
+                            <span id="othertotal"></span>
+                            <div class="input_keys" id="other_container">
+                                <input id="otherinput" type="number" />
+                                <button id="otherkulu">Kulu</button> </br>
+                                
+                            </div>
+                    </div>
+                        <div class="brand-col">
+                
+                            <button onclick="showBottom('#income_container')"><i class="fas fa-money-check"></i></button></br> <!--home-->
+                            Income
+                            <div class="input_keys" id="income_container">
+                                <input id="first" type="number" />
+                                <button id="tulu">Tulu</button>
+                                <!-- Praegune summa:  -->
+                                <span id="totalanswer"></span>€
+                    </div>
                 </div>
-                <button onclick="showBottom('#other_container')"><i class="fas fa-file-invoice-dollar"></i></button></br> <!--home-->
-                <div class="input_keys" id="other_container">
-                    <input id="otherinput" type="number" />
-                    <button id="otherkulu">Kulu</button> </br>
-                    Kulu: <span id="othertotal"></span>€ </br>
-                </div>
-                <button onclick="showBottom('#shopping_container')"><i class="fas fa-shopping-basket"></i></button></br> <!--home-->
-                <div class="input_keys" id="shopping_container">
-                    <input id="shoppinginput" type="number" />
-                    <button id="shoppingkulu">Kulu</button> </br>
-                    Kulu: <span id="shoppingtotal"></span>€ </br>
-                </div>
-                <button onclick="showBottom('#car_container')"><i class="fas fa-car"></i></button></br> <!--home-->
-                <div class="input_keys" id="car_container">
-                    <input id="carinput" type="number" />
-                    <button id="carkulu">Kulu</button> </br>
-                    Kulu: <span id="cartotal"></span>€ </br>
-                </div>
-                <button onclick="showBottom('#travel_container')"><i class="fas fa-route"></i></button></br> <!--home-->
-                <div class="input_keys" id="travel_container">
-                    <input id="travelinput" type="number" />
-                    <button id="travelkulu">Kulu</button> </br>
-                    Kulu: <span id="traveltotal"></span>€ </br>
+                    <div class="brand-col">
+                        <button onclick="showBottom('#car_container')"><i class="fas fa-car"></i></button></br> <!--home-->
+                        Car
+                        <span id="cartotal"></span>
+                        <div class="input_keys" id="car_container">
+                            <input id="carinput" type="number" />
+                            <button id="carkulu">Kulu</button> </br>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
         </div>
         <footer>
 

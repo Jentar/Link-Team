@@ -1,9 +1,82 @@
-.calculator__keys { 
-  display: grid; 
-  /* other necessary CSS */ 
+.input_keys,.hide {
+  display: none;
+  flex-flow: column;
+  align-items: center;
+  
+}
+.flex-grid-2 {
+  max-width: 50%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+ 
+}
+.input {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 10px;
+  width: 400px;
+  height: 250px;
+  
+}
+.flex-grid2 {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin: 25px;
+  margin-bottom: 50px;
+ 
+}
+.brand-col{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+.fas {
+  font-size: 40px;
+}
+.fa-car{
+  color:#F5A9E1
+}
+.fa-file-invoice-dollar {
+  color:#31B404
+}
+.fa-money-check {
+  color:#0489B1
+}
+.fa-shopping-basket {
+  color:#0080FF
+}
+.fa-home {
+  color:#AC58FA
+}
+.fa-route{
+  color:#DF7401
+}
+
+@media (max-width: 600px) {
+  .flex-grid-2 {
+   flex-flow: column;
+  }
+  
+  .brand-col{
+  width: auto;
+  height: 100px;
+  }
 }
 
 
+
+
+/* ---- */
 .pie {
   flex: 1;
   border-radius: 100%;
