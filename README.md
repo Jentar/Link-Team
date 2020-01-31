@@ -1,7 +1,5 @@
 # Budget calculator
-​  
-### Our budget calculator was made for our schools project days which happened on 30 - 31.01.2020.
-​
+#### Our budget calculator was made for our schools project days which happened on 30 - 31.01.2020.
 # Our team
 
 We are team **"Link"** :  
