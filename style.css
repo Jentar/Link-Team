@@ -143,7 +143,6 @@ button {
   width: 10vh;
   background: #0A2443;
   border: none;
-  margin: 40px;
 }
 
 .buttons {
@@ -168,6 +167,17 @@ input {
   width: 10vh;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
 .costbtn {
   color: #85BB65;
   font-family: sans-serif, 'Roboto';
@@ -176,7 +186,7 @@ input {
   background: rgb(18, 69, 131);
   padding: 5px 10px 5px 10px;
   border-radius: 50%;
-  margin 0px;
+  margin: 10px;
 }
 
 footer {
@@ -188,8 +198,8 @@ footer {
 }
 
 .foot {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 20vh;
+  margin-right: 20vh;
 }
 
 .resize {
@@ -214,4 +224,8 @@ footer {
 input {
   border: 5px solid rgb(8, 28, 53);
   border-radius: 4px;
+}
+
+.ibtn {
+  margin: 40px;
 }

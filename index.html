@@ -35,7 +35,7 @@
                     <div class="row">
                         <!--Travel-->
                         <div class="btncontainer">
-                            <button onclick="showBottom('#travel_container')"><i class="fas fa-route"></i></button></br>
+                            <button class="ibtn" onclick="showBottom('#travel_container')"><i class="fas fa-route"></i></button></br>
                             <div class="euros">
                                 <span>Travel</span>
                                 <div>
@@ -55,7 +55,7 @@
 
                         <!--Home-->
                         <div class="btncontainer">
-                            <button onclick="showBottom('#home_container')"><i class="fas fa-home"></i></button></br>
+                            <button class="ibtn" onclick="showBottom('#home_container')"><i class="fas fa-home"></i></button></br>
                             <div class="euros">
                                 <span>Home</span>
                                 <div>
@@ -75,7 +75,7 @@
                         
                         <!--Shopping-->
                         <div class="btncontainer">
-                            <button onclick="showBottom('#shopping_container')"><i class="fas fa-shopping-basket"></i></button></br>
+                            <button class="ibtn" onclick="showBottom('#shopping_container')"><i class="fas fa-shopping-basket"></i></button></br>
                             <div class="euros">
                                 <span>Shopping</span>
                                 <div>
@@ -97,7 +97,7 @@
                     <div class="row">
                         <!--Other-->
                         <div class="btncontainer">
-                            <button onclick="showBottom('#other_container')"><i class="fas fa-file-invoice-dollar"></i></button></br>
+                            <button class="ibtn" onclick="showBottom('#other_container')"><i class="fas fa-file-invoice-dollar"></i></button></br>
                             <div class="euros">
                                 <span>Other</span>
                                 <div>
@@ -106,14 +106,18 @@
                                 </div>
                             </div>
                             <div class="input_keys" id="other_container">
-                                <input id="otherinput" type="number"/>
-                                <button id="otherkulu" class="costbtn">KULU</button>
+                                <div>
+                                    <input id="otherinput" type="number"/>
+                                </div>
+                                <div>
+                                    <button id="otherkulu" class="costbtn">KULU</button>
+                                </div> 
                             </div>
                         </div>
                         
                         <!--Income-->
                         <div class="btncontainer">
-                            <button onclick="showBottom('#income_container')"><i class="fas fa-money-check"></i></button></br>
+                            <button class="ibtn" onclick="showBottom('#income_container')"><i class="fas fa-money-check"></i></button></br>
                             <span class="euros">Income</span>
                             <div class="input_keys" id="income_container">
                                 <div>
@@ -127,7 +131,7 @@
 
                         <!--Car-->
                         <div class="btncontainer">
-                            <button onclick="showBottom('#car_container')"><i class="fas fa-car"></i></button></br>
+                            <button class="ibtn" onclick="showBottom('#car_container')"><i class="fas fa-car"></i></button></br>
                             <div class="euros">
                                 <span>Car</span>
                                 <div>
