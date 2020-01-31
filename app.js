@@ -1,3 +1,25 @@
+function addElement (x1, x2, x3, x4, x5) { 
+    var total = x1 + x2 + x3 + x4 + x5;
+    var values = [x1, x2, x3, x4, x5];
+    var offset = 0;
+
+    for (i = 0; i < 5; i++) {
+        var value = (values[i] / total) * 100;
+        var overHalf = 0;
+        var index = i;
+
+        if (value > 50) {
+            overHalf = 1;
+        }
+
+        var style = document.createElement('style');
+        document.head.appendChild(style);
+        style.sheet.insertRule('#slice' +  index.toString() + '{--offset: ' + offset.toString() + '; --value: ' +
+        value.toString() + '; --over50: ' + overHalf.toString() + '0;}');
+        offset += value;
+    }
+}
+
 function showBottom(e) {
     console.log(e);
 
@@ -48,8 +70,6 @@ travel.innerText = traveltotalvar
 
 
 
-
-
 function tulu() {
     currentvalue = currentvalue + parseInt(first.value)
     answer.innerText = currentvalue;
@@ -59,30 +79,35 @@ function homekulu() {
     answer.innerText = currentvalue;
     hometotalvar = hometotalvar + parseInt(homeinput.value)
     home.innerText = hometotalvar;
+    addElement(hometotalvar, shoppingtotalvar, cartotalvar, traveltotalvar, othertotalvar)
 }
 function otherkulu() {
     currentvalue = currentvalue - parseInt(otherinput.value)
     answer.innerText = currentvalue;
     othertotalvar = othertotalvar + parseInt(otherinput.value)
     other.innerText = othertotalvar;
+    addElement(hometotalvar, shoppingtotalvar, cartotalvar, traveltotalvar, othertotalvar)
 }
 function shoppingkulu() {
     currentvalue = currentvalue - parseInt(shoppinginput.value)
     answer.innerText = currentvalue;
     shoppingtotalvar = shoppingtotalvar + parseInt(shoppinginput.value)
     shopping.innerText = shoppingtotalvar;
+    addElement(hometotalvar, shoppingtotalvar, cartotalvar, traveltotalvar, othertotalvar)
 }
 function carkulu() {
     currentvalue = currentvalue - parseInt(carinput.value)
     answer.innerText = currentvalue;
     cartotalvar = cartotalvar + parseInt(carinput.value)
     car.innerText = cartotalvar;
+    addElement(hometotalvar, shoppingtotalvar, cartotalvar, traveltotalvar, othertotalvar)
 }
 function travelkulu() {
     currentvalue = currentvalue - parseInt(travelinput.value)
     answer.innerText = currentvalue;
     traveltotalvar = traveltotalvar + parseInt(travelinput.value)
     travel.innerText = traveltotalvar;
+    addElement(hometotalvar, shoppingtotalvar, cartotalvar, traveltotalvar, othertotalvar)
 }
 
 // 3. Add Event listener to button
@@ -92,4 +117,3 @@ otherbtnkulu.addEventListener("click", otherkulu);
 shoppingbtnkulu.addEventListener("click", shoppingkulu);
 carbtnkulu.addEventListener("click", carkulu)
 travelbtnkulu.addEventListener("click", travelkulu);
-
