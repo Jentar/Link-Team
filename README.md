@@ -1,6 +1,5 @@
 # Budget calculator
-​
-Eelarve kalkulaator on Kuressaare Ametikooli projektipäevade 30 - 31.01.2020 meeskonnaprojekt.  
+​  
 Our budget calculator was made for our schools project days which happened on 30 - 31.01.2020.
 ​
 # Our team
@@ -18,8 +17,7 @@ We are from Estonia and we are learning in Kuressaare Regional Training Centre. 
 
 ## Budget calculator idea
 ​
-Eesmärk koostada kalkulaator, mis aitaks kasutaja rahakotisisust paremat ülevaadet saada.   Kulutused grupeeritud teemade kaupa, et ülevaatlikult näha, kuhu kaob raha tegelikult. 
-Our goal was to make a calculator which would give the user a better understanding of their monthly spendings. The spendings are categorized into 5 different topics.
+Our goal was to make a calculator which would give the user a better understanding of their monthly spendings.   All expenses are divided into different categories.
 
 ​
 ## Prototype
